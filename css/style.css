@@ -214,7 +214,7 @@ h6 {
   width: 100%;
   height: 100vh;
   position: relative;
-  background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+  background: #f5f8fd url("../img/nature.jpg") center top no-repeat;
   background-size: cover;
 }
 
@@ -260,6 +260,20 @@ h6 {
   /* Drop Down */
   /* Deep Drop Down */
 }
+
+.main-nav .icon::before {
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
+
+.login::before {
+  font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f105";
+}
+
+.main-nav 
 
 .main-nav,
 .main-nav * {
@@ -332,11 +346,13 @@ h6 {
   color: #1bb1dc;
 }
 
+
 .main-nav .drop-down > a:after {
   content: "\f107";
-  font-family: FontAwesome;
+  font-family: "Font Awesome 5 Free";
   padding-left: 10px;
 }
+
 
 .main-nav .drop-down .drop-down ul {
   top: 0;
@@ -353,11 +369,14 @@ h6 {
   padding-right: 35px;
 }
 
+/*
 .main-nav .drop-down .drop-down > a:after {
-  content: "\f105";
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
   position: absolute;
   right: 15px;
 }
+*/
 
 /* Mobile Navigation */
 
@@ -396,8 +415,8 @@ h6 {
 }
 
 .mobile-nav .drop-down > a:after {
+  font-family: "Font Awesome 5 Free";
   content: "\f078";
-  font-family: FontAwesome;
   padding-left: 10px;
   position: absolute;
   right: 15px;
